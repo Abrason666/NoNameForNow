@@ -1,0 +1,21 @@
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - filter:
+      - build/**/*
+      - build/**/*
+      - public/electron.js
+      - node_modules/**/*
+extraMetadata:
+  main: build/electron.js
+appId: com.mystreamapp.app
+productName: CatStreamApp
+mac:
+  category: public.app-category.entertainment
+win:
+  target: nsis
+linux:
+  target: AppImage
+extends: react-cra
+electronVersion: 27.3.11
