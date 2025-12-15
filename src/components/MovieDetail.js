@@ -381,7 +381,7 @@ function MovieDetail() {
             <div className="info-grid">
 
               {/* Crew Principale */}
-              <div className="info-card full-width">
+              <div className="info-card">
                 <h3>🎬 Crew Principale</h3>
                 <div className="crew-list">
                   {director && (
